@@ -1,6 +1,6 @@
 GettingAndCleaningData
 ======================
-Course project for the Coursera's Getting and Cleaning Data. The instrunctions are the following:
+Course project for the Coursera's Getting and Cleaning Data. The instructions are the following:
 
 >The purpose of this project is to demonstrate your ability to collect, work with, and clean a data
 set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your
@@ -32,3 +32,8 @@ the data was obtained:
 
 >Good luck!
 
+This project includes a script called `run_analysis.R` which can be ran against the dataset that is available [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+
+Download and extract the archive to a folder named `data`. You can then execute the `run_analysis.R` on that dataset which will output the results to a text file named `tidyagg.txt`.
+
+A codebook is available in the repository and is named `CodeBook.md`.
